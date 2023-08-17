@@ -1,10 +1,16 @@
 kind: pipeline
 type: docker
-name: default
+name: deploy_hugo
 
 steps:
-- name: greeting
-  image: alpine
+- name: build
+  image: klakegg/hugo
+  environment:
+    HUGO_ENVIRONMENT: production
+    HUGO_ENV: production
+
+- name: deploy
+  image: golang
   commands:
-  - echo hello
-  - echo world
+    - ls
+
