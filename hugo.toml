@@ -1,0 +1,4 @@
+baseURL = 'https://hyang.xyz'
+languageCode = 'en-us'
+title = '''Huaxuan's Bebsite'''
+theme = 'hugo-bearblog'
