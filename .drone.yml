@@ -9,8 +9,14 @@ steps:
     HUGO_ENVIRONMENT: production
     HUGO_ENV: production
 
-- name: deploy
-  image: nginx
+- name: push
+  image: debian:bookworm-slim
+  environment:
+    GIT_PUB:
+      from_secret: GIT_SSH_PUBLIC
+    GIT_SEC:
+      from_secret: GIT_SSH_PRIVATE
   commands:
-    - mv public /usr/share/nginx/html
+    - apt-get install git -y
+    - ls
 
