@@ -11,10 +11,9 @@ steps:
 
 - name: push
   image: appleboy/drone-git-push
-  settings:
-    pull: true
-    remote: ssh://git@hyang.xyz/hyang/hyang.xyz.git
-    branch: master
-    commit_message: "[ci] Deploy page"
-    ssh_key:
+  environment:
+    PLUGIN_SSH_KEY:
       from_secret: GIT_SSH_PRIVATE
+    PLUGIN_REMOTE: ssh://git@hyang.xyz/hyang/hyang.xyz.git
+    PLUGIN_PULL: true
+    PLUGIN_COMMIT_MESSAGE: [ci] Deploy page
