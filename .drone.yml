@@ -17,7 +17,9 @@ steps:
     GIT_SSH_COMMAND: ssh -o StrictHostKeyChecking=no
   commands:
     - mkdir ~/.ssh
+    - umask 077
     - echo "$GIT_SSH_KEY" > ~/.ssh/id_ed25519
+    - umask 000
     - apt-get update && apt-get install git -y
     - cd public
     - git init
