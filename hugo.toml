@@ -1,4 +1,20 @@
 baseURL = 'https://hyang.xyz'
 languageCode = 'en-us'
-title = '''Huaxuan's Homepage'''
-theme = 'hugo-bearblog'
+title = "Huaxuan's Homepage"
+theme = 'github-style'
+
+[params]
+  author = "hyang"
+  description = "@hyang.xyz"
+  github = "yanghuaxuan"
+  email = "hyang@hyang.xyz"
+  url = "https://hyang.xyz"
+  keywords = "blog"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😭"
+
+  [[params.links]]
+    title = "Link2"
+    href = "https://hyang.xyz"
+    icon = "https://hyang.xyz/images/avatar.png"
