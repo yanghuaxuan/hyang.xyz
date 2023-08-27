@@ -13,8 +13,3 @@ theme = 'github-style'
   rss = true
   lastmod = true
   userStatusEmoji = "😭"
-
-  [[params.links]]
-    title = "Link2"
-    href = "https://hyang.xyz"
-    icon = "https://hyang.xyz/images/avatar.png"
