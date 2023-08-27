@@ -27,3 +27,8 @@ steps:
     - git add .
     - git commit -m '[ci] deploy'
     - git push -f -u origin master
+ 
+- name: bing
+  image: curlimages/curl
+  commands:
+    - curl -X PUT hyang.xyz
