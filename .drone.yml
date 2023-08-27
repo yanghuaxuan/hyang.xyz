@@ -10,7 +10,7 @@ steps:
     HUGO_ENV: production
 
 - name: deploy
-  image: golang
+  image: nginx
   commands:
-    - ls
+    - mv public /usr/share/nginx/html
 

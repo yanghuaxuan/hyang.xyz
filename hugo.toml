@@ -1,4 +1,4 @@
 baseURL = 'https://hyang.xyz'
 languageCode = 'en-us'
-title = '''Huaxuan's Bebsite'''
+title = '''Huaxuan's Homepage'''
 theme = 'hugo-bearblog'
