@@ -11,7 +11,7 @@ steps:
 
 - name: push
   image: appleboy/drone-git-push
-  setting:
+  settings:
     ssh_key:
       from_secret: GIT_SSH_PRIVATE
     remote: ssh://git@hyang.xyz/hyang/hyang.xyz.git
