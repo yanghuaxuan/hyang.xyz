@@ -10,7 +10,7 @@ steps:
     HUGO_ENV: production
 
 - name: push
-  image: debian
+  image: 3gigs/git-push
   environment:
     GIT_SSH_KEY:
       from_secret: GIT_SSH_PRIVATE
@@ -23,7 +23,7 @@ steps:
     - apt-get update && apt-get install git -y
     - cd public
     - git init
-    - git remote add origin git@hyang.xyz:hyang/hyang.xyz.git
+    - git remote add origin git@hyang.xyz:hyang/pages.git
     - git add .
     - git commit -m '[ci] deploy'
     - git push -f -u origin master
