@@ -31,4 +31,4 @@ steps:
 - name: bing
   image: curlimages/curl
   commands:
-    - curl -X PUT hyang.xyz
+    - curl -X PUT https://hyang.xyz
