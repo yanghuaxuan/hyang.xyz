@@ -14,6 +14,6 @@ steps:
   setting:
     ssh_key:
       from_secret: GIT_SSH_PRIVATE
-    remote: 'ssh://git@hyang.xyz/hyang/hyang.xyz.git'
-    pull: 'true'
+    remote: ssh://git@hyang.xyz/hyang/hyang.xyz.git
+    pull: true
     commit_message: [ci] Deploy page
