@@ -17,6 +17,7 @@ steps:
     GIT_SEC:
       from_secret: GIT_SSH_PRIVATE
   commands:
+    - apt-get update
     - apt-get install git -y
     - ls
 
