@@ -24,6 +24,6 @@ steps:
     - echo "$GIT_PUB" > ~/.ssh/id_ed25519
     - git init
     - git commit -m 'comit'
-    - git remote add origin git@hyang.xyz:hyang/pages.git
+    - git remote add origin 'git@hyang.xyz:hyang/pages.git'
     - git push -f origin
 
