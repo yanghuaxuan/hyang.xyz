@@ -6,7 +6,11 @@ steps:
 - name: submodules
   image: alpine/git
   commands:
-  - git submodule update --init --recursive
+    - mkdir ~/.ssh
+    - umask 077
+    - echo "$GIT_SSH_KEY" > ~/.ssh/id_ed25519
+    - umask 000
+    - git submodule update --init --recursive
 
 - name: build
   image: klakegg/hugo:ci
