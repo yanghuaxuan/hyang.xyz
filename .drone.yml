@@ -20,7 +20,6 @@ steps:
     - umask 077
     - echo "$GIT_SSH_KEY" > ~/.ssh/id_ed25519
     - umask 000
-    - apt-get update && apt-get install git -y
     - cd public
     - git init
     - git remote add origin git@hyang.xyz:hyang/pages.git
