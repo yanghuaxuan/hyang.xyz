@@ -21,6 +21,7 @@ steps:
     - echo "$GIT_SSH_KEY" > ~/.ssh/id_ed25519
     - umask 000
     - cd public
+    - git config init.defaultBranch master
     - git init
     - git remote add origin git@hyang.xyz:hyang/pages.git
     - git add .
