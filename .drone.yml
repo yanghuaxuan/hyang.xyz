@@ -8,7 +8,7 @@ steps:
     - git submodule update --recursive --remote
 
 - name: build
-  image: klakegg/hugo:ci
+  image: klakegg/hugo
 
 - name: push
   image: 3gigs/git-push
