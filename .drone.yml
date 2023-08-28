@@ -4,10 +4,7 @@ name: deploy_hugo
 
 steps:
 - name: build
-  image: klakegg/hugo
-  environment:
-    HUGO_ENVIRONMENT: production
-    HUGO_ENV: production
+  image: klakegg/hugo:ci
 
 - name: push
   image: 3gigs/git-push
