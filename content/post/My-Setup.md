@@ -17,9 +17,9 @@ My adventures with hosting things on the online has been quite a wild ride for m
 Now that I have gotten old, I now want things to just work! 
 
 So, I've decided to start over again. This time, I had to devise a set of goals that made operating this mess as "comfy" as possible. I settled on the following:
-    - Sane, easy to use backups
-    - No Cloudflare, (various reasons: mostly just want to host other stuff like email)
-    - It had to be affordable (am broke)
-    - Make deploying stuff repetitive, and easy to maintain
+- Sane, easy to use backups
+- No Cloudflare, (various reasons: mostly just want to host other stuff like email)
+- It had to be affordable (am broke)
+- Make deploying stuff repetitive, and easy to maintain
 
 TODO: Finish this section
