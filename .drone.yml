@@ -6,6 +6,10 @@ steps:
 - name: build
   image: klakegg/hugo:ci
 
+- name: submodules
+  commands:
+    - git submodule update --recursive --remote
+
 - name: push
   image: 3gigs/git-push
   environment:
