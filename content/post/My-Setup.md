@@ -22,4 +22,20 @@ So, I've decided to start over again. This time, I had to devise a set of goals 
 - Affordable (am broke)
 - Make deploying stuff repetitive, and easy to maintain
 
+Here's my setup:
+
+![My setup as a diagram](/images/diagram.svg)  
+
+In essence:
+- Small BuyVM VPS for connecting to the big Internet without revealing my residential address.
+    - Also runs my email server. 
+- Docker for running/managing services
+- Loads of storage:
+    - 1TB NVME for running NixOS
+    - 3x 4TB Hard Drives on ZFS RAID1 (mirror)
+- 1x 4TB Hard Drives (Backups)
+    - Using rsnapshot 
+    - Backups for both my NVME and HDD. 
+        - (Might be a problem in the future... Might move it to to my 3x4TB drives)
+
 TODO: Finish this section
