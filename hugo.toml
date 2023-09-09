@@ -24,3 +24,7 @@ paginate = 5
   # center theme with default width
   centerTheme = true
 
+[languages]
+    [languages.en.params.logo]
+      logoText = "@hyang.xyz"
+      logoHomeLink = "/"
