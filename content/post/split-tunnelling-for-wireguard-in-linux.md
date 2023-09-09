@@ -60,6 +60,12 @@ iptables -t nat -A POSTROUTING -s 10.1.1.1/24" -o $IF -j MASQUERADE
 iptables -A FORWARD -i $IF -o veth0 -j ACCEPT
 iptables -A FORWARD -o $IF -i veth0 -j ACCEPT
 ```
+## DNS
+You may need to manually configure the DNS server. We will use Cloudflare's 1.1.1.1 to resolve DNS queries inside the network namespace.
+```
+mkdir -p /etc/netns/split
+echo "nameserver 1.1.1.1" > /etc/netns/split/resolv.conf
+```
 
 ## Conclusion
 That's it! Now to test it
