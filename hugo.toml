@@ -1,15 +1,26 @@
 baseURL = 'https://hyang.xyz'
 languageCode = 'en-us'
 title = "Huaxuan's Homepage"
-theme = 'github-style'
+theme = 'terminal'
+paginate = 5
 
 [params]
-  author = "hyang"
-  description = "@hyang.xyz"
-  github = "yanghuaxuan"
-  email = "hyang@hyang.xyz"
-  url = "https://hyang.xyz"
-  keywords = "blog"
-  rss = true
-  lastmod = true
-  userStatusEmoji = "😭"
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "post"
+
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "blue"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = true
+
