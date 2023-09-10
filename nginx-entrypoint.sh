@@ -84,6 +84,25 @@ server {
     # Default index file for this virtual host
     index index.html index.htm;
 
+    location ~* \.(?:jpg|jpeg|gif|png|ico|svg|webp)$ {
+      expires 1M;
+      access_log off;
+      # max-age must be in seconds
+      add_header Cache-Control "max-age=2629746, public";
+    }
+
+    location ~* \.(?:css|js)$ {
+      expires 1y;
+      access_log off;
+      add_header Cache-Control "max-age=31556952, public";
+    }
+
+    gzip on;
+    gzip_min_length 1100;
+    gzip_buffers 4 32k;
+    gzip_types text/plain application/x-javascript text/xml text/css;
+    gzip_vary on;
+
     # Logging configuration
     access_log /var/log/nginx/hugo_pub_access.log;
     error_log /var/log/nginx/hugo_pub_error.log;
