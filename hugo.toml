@@ -24,6 +24,13 @@ paginate = 5
   # center theme with default width
   centerTheme = true
 
+  # whether to show a page's estimated reading time
+  readingTime = true 
+
+  # whether to show a table of contents
+  # can be overridden in a page's front-matter
+  Toc = true 
+
 [languages]
     [languages.en.params.logo]
       logoText = "@hyang.xyz"
