@@ -1,5 +1,6 @@
 mkdir -p /var/www/hugo_pub
-cp -r ./public /var/www/hugo_pub
+cp -r ./public/* /var/www/hugo_pub
+chown -R root:www-data /var/www/hugo_pub
 
 cat <<EOF > /etc/nginx/nginx.conf
 user nginx;
@@ -57,14 +58,6 @@ http {
 
 	# Set the Vary HTTP header as defined in the RFC 2616. Default is 'off'.
 	gzip_vary on;
-
-
-	# Helper variable for proxying websockets.
-	map $http_upgrade $connection_upgrade {
-		default upgrade;
-		'' close;
-	}
-
 
 	# Specifies the main log format.
 	log_format main '$remote_addr - $remote_user [$time_local] "$request" '
