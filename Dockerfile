@@ -1,7 +1,9 @@
-FROM klakegg/hugo
+FROM alpine:latest
 
-WORKDIR /src
+RUN apk add --no-cache hugo git
 
-COPY ./ /src
+WORKDIR /app
 
-ENTRYPOINT hugo serve 
+EXPOSE 1313/tcp
+
+ENTRYPOINT (git clone "$REPO" . || git fetch && git reset --hard origin) && git submodule update --init --remote && hugo serve --baseURL "$BASE_URL" -p "$PORT" --bind '0.0.0.0' -e "$HUGO_ENV" --disableFastRender --disableLiveReload 
