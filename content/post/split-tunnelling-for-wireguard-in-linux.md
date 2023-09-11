@@ -1,10 +1,11 @@
 ---
 title: "Split Tunnelling for Wireguard in Linux"
 date: 2023-09-08T17:18:39-07:00
+description: How to split tunnel in Wireguard on Linux
 draft: false
 ---
 
-# How to split tunnel in Wireguard, running Linux
+# How to split tunnel in Wireguard on Linux
 
 If you're under a VPN with WireGuard on Linux, as of writing this, there seems to be a surprising lack of documentation for selectively split tunneling certain applications. Fortunately, with Linux [network namespaces](https://en.wikipedia.org/wiki/Cgroups), we are able to do just that.
 
