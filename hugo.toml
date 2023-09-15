@@ -9,6 +9,7 @@ paginate = 5
   author = "hyang"
   mainSections = ["post"]
   TocOpen = true
+  TocSide = "left"
 
 [params.homeInfoParams]
 Title = "👋 Welcome to my homepage"

@@ -6,12 +6,12 @@ draft: false
 ---
 
 
-# Hello Once Again
+## Hello Once Again
 Welcome to my ~~third~~, first iteration of hyang.xyz. Now that my hosting stuff is stable again, I hope that I can finally stop messing around with Linux and start doing things that I can look back on years later. And what better way to do that than start writing blog posting? 
 
 (I also need an excuse to get better at writing…)
 
-# The Setup
+## The Setup
 My adventures with hosting things on the online has been quite a wild ride for me. Until now, it has mostly been more of a learning experience thing. I had mostly focused on hosting stuff like SearX, Nitter, and Fediverse instances, with it lasting two weeks at most, before I got bored and just nuke it all. I also distro-hopped a lot, from Debian → Arch → OpenBSD → FreeBSD → NixOS. 
 
 Now that I have gotten old, now I just want things to just work! 
