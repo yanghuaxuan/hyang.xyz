@@ -11,11 +11,25 @@ paginate = 5
   TocOpen = true
   TocSide = "left"
 
-[params.homeInfoParams]
-Title = "👋 Welcome to my homepage"
-Content = """
-I'm Huaxuan Yang. On *hyang.xyz*, I self-host a bunch of services (including this blog), using the finest grade gaming hardware. Here, I mostly talk about technology stuff, like Linux, programming, etc. Maybe some other content soon...
-"""
+  [[params.socialIcons]]
+  name = "email"
+  url = "mailto:hyang@hyang.xyz"
+  [[params.socialIcons]]
+  name = "github-simple"
+  url = "https://github.com/yanghuaxuan"
+  [[params.socialIcons]]
+  name = "mastodon"
+  url = "https://post.hyang.xyz/hyang"
+  [[params.socialIcons]]
+  name = "linkedin-simple"
+  url = "https://www.linkedin.com/in/huaxuan-yang/"
+
+
+  [params.homeInfoParams]
+  Title = "👋 Welcome to my homepage"
+  Content = """
+  I'm Huaxuan Yang. On *hyang.xyz*, I self-host a bunch of services (including this blog), using the finest grade gaming hardware. Here, I mostly talk about technology stuff, like Linux, programming, etc. Maybe some other content soon...
+  """
 
 [languages]
     [languages.en.params.logo]
