@@ -2,14 +2,29 @@ baseURL = 'https://hyang.xyz'
 languageCode = 'en-us'
 title = "hyang's homepage"
 theme = 'papermodx'
+enableRobotsTXT = true
 paginate = 5
 
 [params]
   description = "Cool blogpostings"
   author = "hyang"
-  mainSections = ["post"]
+  email = "hyang@hyang.xyz"
+  mainSections = ["posts"]
   TocOpen = true
   TocSide = "left"
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+
+  [[menu.main]]
+  name = "Posts"
+  url = "/posts"
+  weight = 1
+  [[menu.main]]
+  name = "Search"
+  url = "/search"
+  weight = 2
 
   [[params.socialIcons]]
   name = "email"
