@@ -1,12 +1,14 @@
 :root {
   --link-hover-color: #449DD1 !important;
   --link-hover-underline-color: #449DD1 !important;
+  --link-background-color: #78C0E0 !important;
 }
 
 .dark {
   --theme: rgb(0, 0, 0);
   --link-hover-color: #449DD1 !important;
   --link-hover-underline-color: #449DD1 !important;
+  --link-background-color: #449DD1 !important;
 }
 
 .first-entry > header:nth-child(1) {
