@@ -5,10 +5,14 @@ theme = 'papermodx'
 enableRobotsTXT = true
 paginate = 5
 
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
 [params]
   description = "Cool blogpostings"
   author = "hyang"
   email = "hyang@hyang.xyz"
+  keywords = [ "Blog", "Portfolio" ]
   mainSections = ["posts"]
   TocOpen = true
   TocSide = "left"
@@ -16,6 +20,8 @@ paginate = 5
   ShowWordCount = true
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  env = "production"
 
   [[menu.main]]
   name = "Posts"
@@ -45,6 +51,15 @@ paginate = 5
   Content = """
   I'm Huaxuan Yang. On *hyang.xyz*, I self-host a bunch of services (including this blog), using the finest grade gaming hardware. Here, I mostly talk about technology stuff, like Linux, programming, etc. Maybe some other content soon...
   """
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1_000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = [ "title", "permalink", "summary", "content" ]
 
 [languages]
     [languages.en.params.logo]
