@@ -1,37 +1,20 @@
 baseURL = 'https://hyang.xyz'
 languageCode = 'en-us'
-title = "Huaxuan's Homepage"
-theme = 'terminal'
+title = "hyang's homepage"
+theme = 'papermodx'
 paginate = 5
 
 [params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "post"
+  description = "Cool blogpostings"
+  author = "hyang"
+  mainSections = ["post"]
+  TocOpen = true
 
-  subtitle = "My blogpostings"
-
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "blue"
-
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-
-  # show selector to switch language
-  showLanguageSelector = false
-
-  # set theme to full screen width
-  fullWidthTheme = false
-
-  # center theme with default width
-  centerTheme = true
-
-  # whether to show a page's estimated reading time
-  readingTime = true 
-
-  # whether to show a table of contents
-  # can be overridden in a page's front-matter
-  Toc = true 
+[params.homeInfoParams]
+Title = "👋 Welcome to my homepage"
+Content = """
+I'm Huaxuan Yang. On *hyang.xyz*, I self-host a bunch of services (including this blog), using the finest grade gaming hardware. Here, I mostly talk about technology stuff, like Linux, programming, etc. Maybe some other content soon...
+"""
 
 [languages]
     [languages.en.params.logo]
