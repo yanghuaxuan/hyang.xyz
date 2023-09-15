@@ -1,0 +1,8 @@
+.dark {
+  --theme: rgb(0, 0, 0);
+  --link-hover-color: #449DD1;
+}
+
+.first-entry > header:nth-child(1) {
+  text-shadow: 1px 1px 4px #449DD1;
+}
