@@ -39,7 +39,7 @@ home = [ "HTML", "RSS", "JSON" ]
   name = "github-simple"
   url = "https://github.com/yanghuaxuan"
   [[params.socialIcons]]
-  name = "mastodon"
+  name = "pleroma"
   url = "https://post.hyang.xyz/hyang"
   [[params.socialIcons]]
   name = "linkedin-simple"
