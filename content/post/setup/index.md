@@ -24,7 +24,7 @@ So, I've decided to start over again. This time, I had to devise a set of goals 
 
 Here's my setup:
 
-![My setup as a diagram](/images/diagram.svg)  
+![My setup as a diagram](images/diagram.svg)  
 
 In essence:
 - Small BuyVM VPS for connecting to the big Internet without revealing my residential address.
