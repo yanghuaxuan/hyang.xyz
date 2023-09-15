@@ -1,9 +1,11 @@
-:root, .dark {
-  --theme: rgb(0, 0, 0);
+:root, {
   --link-hover-color: #449DD1;
   --link-hover-underline-color: #449DD1;
 }
 
+.dark {
+  --theme: rgb(0, 0, 0);
+}
 
 .first-entry > header:nth-child(1) {
   text-shadow: 1px 1px 4px #449DD1;
