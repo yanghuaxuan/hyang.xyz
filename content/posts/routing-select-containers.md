@@ -84,7 +84,7 @@ On `/etc/iproute2/rt_tables`, add the following line:
 ```
 201     docker_wg
 ```
-The name of the table can be anything you want, but we'll name it *docker_wg*. This routing table will contain only one entry: to route everything to the docker_wg0 interface
+The name of the table can be anything you want, but we'll name it *docker_wg*. This routing table will contain only one entry: to route everything to the docker_wg0 interface.
 ```
 # Assuming that the arbitrary mark defined in the last step was 5102!
 ip rule add fwmark 5102 table docker_wg
