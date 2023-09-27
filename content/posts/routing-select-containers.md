@@ -73,9 +73,26 @@ The bridge we defined [here](#create-user-defined-docker-bridge) will have the s
 # iptables -t nat -A POSTROUTING -o docker_wg0 -j MASQUERADE
 # iptables -t mangle -A PREROUTING -i br-b5a8e9e3afe4 -j MARK --set-mark 5102
 ```
-We first let Iptables know to allow packets that are forwarded to docker_wg0. Next, we'll masquerade packets that are going to our router (interface name may be different). Then we'll also masquerade packets that are going to the docker_wg0 interface. Finally, we'll mark any packets coming from *br-b5a8e9e3afe4* with an arbitrary integer, such as 5102.
+1. We first let Iptables know to allow packets that are forwarded to docker_wg0. 
+2. Next, we'll masquerade packets that are going to your router (interface name may be different). We'll also masquerade packets that are going to the docker_wg0 interface. This is so that packets can properly communicate to the WG interface, which then communicates to your router interface. 
+4. Finally, we'll mark any packets coming from *br-b5a8e9e3afe4* with an arbitrary integer, such as 5102. This is used for the next step.
 
 ## Messing with Policy Rules
+We'll need to make add a separate routing table for the bridge interface, which just routes everything to the docker_wg0 interface.
+
+On `/etc/iproute2/rt_tables`, add the following line:
+```
+201     docker_wg
+```
+The name of the table can be anything you want, but we'll name it *docker_wg*. This routing table will contain only one entry: to route everything to the docker_wg0 interface
+```
+# Assuming that the arbitrary mark defined in the last step was 5102!
+ip rule add fwmark 5102 table docker_wg
+```
+Then, we'll add a policy rule which tells Linux to route packets marked with integer 5102 using the docker_wg routing table.
+```
+ip rule add fwmark 5102 table docker_wg
+```
 
 # Further Reading
 - https://www.linuxserver.io/blog/routing-docker-host-and-container-traffic-through-wireguard
