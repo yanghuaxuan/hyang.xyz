@@ -76,7 +76,7 @@ EOF
 cat <<EOF > /etc/nginx/http.d/hugo.conf
 server {
     # Listen on port 80 for HTTP requests
-    listen 8080;
+    listen 80;
 
     # Root directory for serving web content for this virtual host
     root /var/www/hugo_pub;
