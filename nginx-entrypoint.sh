@@ -2,6 +2,7 @@ mkdir -p /var/www/hugo_pub
 cp -r ./public/* /var/www/hugo_pub
 chown -R root:www-data /var/www/hugo_pub
 
+
 cat <<EOF > /etc/nginx/nginx.conf
 user nginx;
 
@@ -72,6 +73,8 @@ http {
 	include /etc/nginx/http.d/*.conf;
 }
 EOF
+
+rm /etc/nginx/http.d/default.conf
 
 cat <<EOF > /etc/nginx/http.d/hugo.conf
 server {
