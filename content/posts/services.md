@@ -10,6 +10,7 @@ On top of this blog, I host a bunch of services that I personally use. Available
 
 <!--more-->
 
+- [My Git Repo](https://git.hyang.xyz/hyang/hyang.xyz)
 - [Invidious](https://inv.hyang.xyz)
 - [Nitter](https://xitter.hyang.xyz) (Down for now)
 - [Fediverse](https://post.hyang.xyz)
