@@ -3,14 +3,15 @@ title: "The C Memory Allocator"
 date: 2023-12-21T14:34:30-08:00
 draft: false
 description: C dynamic memory management from scratch
+ShowToc: true
 ---
 
 In C, dynamic memory is manually managed, meaning that it is up to the programmer to properly allocate memory, and freeing it when done. Memory is allocated using `malloc()` function, and freed with `free()`. You can read more about it [here](https://linux.die.net/man/3/malloc). The API is pretty simple, and there's not much to talk about on the surface. Let's see how it is implemented.
 
 ## Goals of malloc()
-In most operating systems today, everytime you run a program, the kernel abstracts away the memory the program uses into virtual memory. The virtual memory is completely separate from the physical memory, meaning it has its own memory addresses, size, etc. Every program has a fixed amount of memory when it starts, and has to call upon the kernel to request more memory. The problem is, every operating system has its own way of requesting memory from the kernel. The primary goal of malloc and free API abstracting away all of this away from the programmer.
+In most operating systems today, everytime you run a program, the kernel abstracts away the memory the program uses into virtual memory. The [virtual memory](https://en.wikipedia.org/wiki/Virtual_memory) is completely separate from the physical memory, meaning it has its own memory addresses, size, etc. Every program has a fixed amount of memory when it starts, and has to [call](https://en.wikipedia.org/wiki/System_call) upon the kernel to request more memory. The problem is, every operating system has its own way of requesting memory from the kernel. The primary goal of malloc and free API abstracting away all of this away from the programmer.
 
-Another goal of malloc is performance. System calls are expensive, and so a common goal among all allocators is reducing the amount of system calls as much as possible. Usually, this is achieved by requesting huge chunks of memory from kernel to be shared with subsequent malloc calls, and recycling freed memory. This however, introduces its own set of problems, such as [fragmentation](https://en.wikipedia.org/wiki/Fragmentation_(computing)). 
+Another goal of malloc is performance. System calls are expensive, and so a common goal among all allocators is reducing the amount of requests for memory as much as possible. Usually, this is achieved by requesting huge chunks of memory from kernel to be shared with subsequent malloc calls, and recycling freed memory. This however, introduces its own set of problems, such as [fragmentation](https://en.wikipedia.org/wiki/Fragmentation_(computing)). We'll have to account for that as well.
 
 
 ## Implementing malloc() and free()
