@@ -1,0 +1,4 @@
+#+TITLE: Sitemap for project hyang.xyz
+
+- [[file:index.org][index]]
+- [[file:lol.org][lol]]

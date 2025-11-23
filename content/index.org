@@ -1,0 +1,18 @@
+#+OPTIONS: toc:nil
+
+Welcome to my corner of the world.
+
+$34+23 = 67$
+
+[[file:lol.org][Lol]]
+
+#+begin_src c
+  int main(void) {
+  	printf("Hello world!");
+  }
+#+end_src
+
+#+begin_src emacs-lisp
+  (+ 2 2)
+  (use-package 'htmlize)
+#+end_src
