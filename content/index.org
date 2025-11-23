@@ -4,7 +4,10 @@ Welcome to my corner of the world.
 
 $34+23 = 67$
 
+This is cringe
+
 [[file:lol.org][Lol]]
+
 
 #+begin_src c
   int main(void) {
@@ -16,3 +19,10 @@ $34+23 = 67$
   (+ 2 2)
   (use-package 'htmlize)
 #+end_src
+
+** Places Where I Yap
+- [[https://yap.hyang.xyz][Pleroma]]
+
+
+* 
+Made with Emacs and [[https://orgmode.org][org-mode]]
