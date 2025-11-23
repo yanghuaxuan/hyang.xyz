@@ -22,8 +22,8 @@
 (setq org-publish-project-alist
       (list
        (list "hyang.xyz"
-	     :recursive nil
 	     :base-directory "./content"
+	     :recursive nil
 	     :publishing-directory "./public"
 	     :publishing-function 'org-html-publish-to-html
 	     :auto-sitemap t
@@ -31,7 +31,14 @@
 	     :with-author nil
 	     :time-stamp-file nil
 	     :html-validation-link nil
-	     :section-numbers nil)))
+	     :section-numbers nil)
+       (list "static"
+	     :base-directory "./static"
+	     :recursive t
+	     :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
+	     :publishing-directory "./public"
+	     :publishing-function 'org-publish-attachment
+	     )))
 
 (org-publish-all)
 
