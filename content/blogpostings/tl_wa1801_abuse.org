@@ -55,7 +55,7 @@ After a whole week, the router finally arrives.
 
 Now I finally get to see for myself what the secrets of this AP that *not even the FCC* will tell you.
 
-Before that, I tested the AP with everything intact. The router performed pretty much what I expected. Setting it up as an access point  is pretty simple.  Using `iperf3` from my laptop to my actual router, I got the following results:
+Before that, I tested the AP with everything intact. The router performed pretty much what I expected. Setting it up as an access point  is pretty simple.  Using ~iperf3~ from my laptop to my actual router, I got the following results:
 #+begin_src
 Accepted connection from 192.168.1.xxx, port 55412
 [  5] local 192.168.1.1 port 5201 connected to 192.168.1.xxx port 55413
@@ -80,7 +80,7 @@ Anyways, this isn't a AP review. Let's do a teardown:
 <summary>
    On the bottom of the AP, there are two screws. I'm not too familiar with screws, so I just used whatever screwdriver that worked.
 </summary>
-<img src="../static/tl_wa1801_screws.png">
+<img loading="lazy" src="../static/tl_wa1801_screws.png">
 </details>
 #+END_EXPORT
 2.
@@ -89,8 +89,8 @@ Anyways, this isn't a AP review. Let's do a teardown:
 <summary>
 After that, you'll need to pry off the plastic top. This is probably the hardest part. The plastic top is fastened by plastic clips on the outer edges. There is a non-zero chance you'll break some of the clips. I incrementally applied force from all sides, and managed to pry off the top without breaking any clips.
 </summary>
-<img src="../static/tl_wa1801_opened1.png">
-<img src="../static/ta_wa1801_opened_case.png">
+<img loading="lazy" src="../static/tl_wa1801_opened1.png">
+<img loading="lazy" src="../static/ta_wa1801_opened_case.png">
 </details>
 #+END_EXPORT
 3.
@@ -99,7 +99,7 @@ After that, you'll need to pry off the plastic top. This is probably the hardest
 <summary>
 The black heat sink can be taken off by unscrewing the screws at the bottom of the PCB.  Here's a photo of the bottom PCB.
 </summary>
-<img src="../static/ta_wa1801_back_pcb.png">
+<img loading="lazy" src="../static/ta_wa1801_back_pcb.png">
 </details>
 #+END_EXPORT
 4. 
@@ -108,7 +108,7 @@ The black heat sink can be taken off by unscrewing the screws at the bottom of t
 <summary>
     Taking off the black heat sink gives you... more heat sinks!
 </summary>
-<img src="../static/tl_wa1801_top_pcb_with_heatsink.png">
+<img loading="lazy" src="../static/tl_wa1801_top_pcb_with_heatsink.png">
 The metal is actually a lid that's easy to take on and off. Just use something flat to take off the top.
 <br>
 (Notice the 4 pins between the metal heat shinks!)
@@ -116,11 +116,15 @@ The metal is actually a lid that's easy to take on and off. Just use something f
 #+END_EXPORT
 
 Here it is, as seen in the FCC filings:
+#+ATTR_HTML: loading=lazy
    [[../static/tl_wa1801_top_without_heatsink.png]]
 
 Now then, here are some new, never before seen close ups that the FCC doesn't want you to know:
+#+ATTR_HTML: loading=lazy
 [[../static/ta_wa1801_mediatek.png]]
+#+ATTR_HTML: loading=lazy
 [[../static/ta_wa1801_idkwhatthisis.png]]
+#+ATTR_HTML: loading=lazy
 [[../static/tl_wa1801_the_other_mediatek_chip.png]]
 
 Thus:
