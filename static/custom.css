@@ -1,0 +1,30 @@
+:root {
+  --accent: lime;
+  font-family: "Iosevka Term SS10", monospace;
+}
+
+.icon-svg {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    color: var(--text);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.icon-svg:visited {
+    color: var(--text);
+}
+
+@font-face {
+    font-family: "Iosevka Term SS10";
+    src: url("https://db.onlinewebfonts.com/t/815c035c68215e882a2fb4783d3737c3.eot");
+    src: url("https://db.onlinewebfonts.com/t/815c035c68215e882a2fb4783d3737c3.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/815c035c68215e882a2fb4783d3737c3.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/815c035c68215e882a2fb4783d3737c3.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/815c035c68215e882a2fb4783d3737c3.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/815c035c68215e882a2fb4783d3737c3.svg#Iosevka Term SS10")format("svg");
+}
+
+.todo {
+    color: red;
+}

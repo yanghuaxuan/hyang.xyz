@@ -1,0 +1,4 @@
+#+TITLE: Sitemap for project hall of shame
+
+- [[file:failed_spotify_scam.org][Failed Spotify Phishing Attempt]]
+- [[file:fake_porkbun.org][Fake Porkbun]]

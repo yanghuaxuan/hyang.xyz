@@ -1,0 +1,15 @@
+#+TITLE: Projects
+
+Here lies a list of projects I've worked on, with no guarantee of being finished.
+
+* TODO Reverse Engineering TL-WA1801
+Small project to flash OpenWRT on a router not yet official supported by OpenWRT.
+- [[file:blogpostings/tl_wa1801_abuse.org][Project blog]]
+* TODO Jailcel
+Mini Linux container from scratch, with isolated networking capabilities. Lots of effort learning Linux namespaces only to have it converge to being a Bubblewrap clone... but at least you can host stuff without the consequences of getting hacked, without the luggage of re-installing 100 userspace tools and libraries per service
+- [[https://github.com/yanghuaxuan/jailcel][Repository]]
+* hyang.xyz
+This site you're looking at. I'll also sic my homelab here because why not (and because I was planning to host some stuff using my homelab some time ago). I have suffered a somewhat catastrophic data loss due to minor mistake from this project, so I'm pretty experienced or at least actively taking pre-cautions to not have this happen again.
+- [[file:blogpostings/hello_again_2023.org][My Setup in 2023 (NO WAY REPRESENTS MY CURRENT SETUP!!)]]
+
+  

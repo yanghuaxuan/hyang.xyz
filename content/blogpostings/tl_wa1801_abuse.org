@@ -1,0 +1,143 @@
+#+TITLE: Abusing My New Wi-Fi Access Point So I Can Liberate It with a Real Operating System
+
+Title summarizes the entire article
+
+Still a working in progress...
+
+* Part 1
+Recently I managed to snag a WIFI-6 access point for ~$40 from Ebay. It's a [[https://www.tp-link.com/au/home-networking/access-point/tl-wa1801/][TP-Link TL-WA1801]]. That's a pretty good price for a 802.11ax access point, from a somewhat well-known brand, and with all peripherals included. 
+
+So I searched OpenWRT's table of hardware...
+
+#+CAPTION: OpenWRT TOH... TL-WA1801 Not Officially Supported!
+[[../static/openwrt_toh_wa1801.png]]
+
+And nothing, except their old, inferior 802.11ac, with the same form.
+
+That's surprising, considering that it seems to be a pretty popular router, at least according to Amazon.
+
+#+ATTR_HTML: :width 300 :height 200
+#+CAPTION: TL-WA1801 Amazon Store Title
+[[../static/amazon_wa1801.png]]
+
+So I went ahead and searched up more information about this router. Here's the TP-Link's official product page
+
+#+CAPTION: Official TP-Link Product Page for TL-WA1801... in Australia
+[[../static/tp_link_wa1801_store_page_down_under.png]]
+
+Actually, this is their Australia store page. For some reason, the TL-WA1801 does not show up on the US store. But it's listed on Amazon, so I presume there's nothing that restricts you from using it in the U.S.
+The support page various manuals, along with a """data sheet""" which is just more marketing stuff, and tells you nothing more about the router other than that.
+
+Next I checked to see if there's a FCC filing for this access point. You can utilize this to check to see whether or not you'll go to prison for using this AP.  But more importantly, you use this to get photos of the internals of the device. Here's the [[https://fcc.report/FCC-ID/2AXJ4WA1801)][FCC report for the TL-WA1801]].
+Most filings contain a close-up of the SoC and WIFI chips, which shows the exact part ID quite clearly. For instance, here's is the [[https://fccid.io/MSQ-RTAX5S00/Internal-Photos/Internal-Photos-6214934][internal photos for some random ASUS router]].
+
+But for whatever reason there are no close ups of the components! This is the best you get:
+[[../static/tl_wa1801_nocloseups_questionmark.png]]
+
+Actually, this is probably the best photo of the internals that's publicly available on the Internet. I tried searching for more information about the Tl-WA1801 and its components, but besides one person on the OpenWRT forums trying to use WA1201 firmware on this, nothing else popped up...
+
+So, all I know about this device right now is that it is 'an access point'. 
+
+Best I can do for now is to wait for it to arrive...
+
+* Part 2
+#+BEGIN_EXPORT HTML
+<aside>
+<p>It even comes with a Power over Ethernet adapter!</p>
+</aside>
+#+END_EXPORT
+After a whole week, the router finally arrives.
+#+ATTR_HTML: :width 300 :height 200
+[[../static/tl_wa1801_in_its_beautiful_intact_form.png]]
+#+ATTR_HTML: :width 300 :height 200
+[[../static/tl_wa1801_poe.png]]
+
+
+Now I finally get to see for myself what the secrets of this AP that *not even the FCC* will tell you.
+
+Before that, I tested the AP with everything intact. The router performed pretty much what I expected. Setting it up as an access point  is pretty simple.  Using ~iperf3~ from my laptop to my actual router, I got the following results:
+#+begin_src
+Accepted connection from 192.168.1.xxx, port 55412
+[  5] local 192.168.1.1 port 5201 connected to 192.168.1.xxx port 55413
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  62.0 MBytes   520 Mbits/sec                  
+[  5]   1.00-2.00   sec  69.8 MBytes   585 Mbits/sec                  
+[  5]   2.00-3.00   sec  66.8 MBytes   560 Mbits/sec                  
+[  5]   3.00-4.00   sec  65.5 MBytes   549 Mbits/sec                  
+[  5]   4.00-5.00   sec  71.9 MBytes   603 Mbits/sec                  
+[  5]   5.00-6.00   sec  74.5 MBytes   625 Mbits/sec                  
+[  5]   6.00-7.00   sec  76.1 MBytes   639 Mbits/sec                  
+[  5]   7.00-8.00   sec  76.2 MBytes   640 Mbits/sec                  
+[  5]   7.00-8.00   sec  76.2 MBytes   640 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+#+end_src
+Overall, pretty good access point. From my brief testing, I would recommend this if you just want 'an access point'. 
+
+Anyways, this isn't a AP review. Let's do a teardown:
+1.
+ #+BEGIN_EXPORT html
+<details>
+<summary>
+   On the bottom of the AP, there are two screws. I'm not too familiar with screws, so I just used whatever screwdriver that worked.
+</summary>
+<img loading="lazy" src="../static/tl_wa1801_screws.png">
+</details>
+#+END_EXPORT
+2.
+ #+BEGIN_EXPORT html
+<details>
+<summary>
+After that, you'll need to pry off the plastic top. This is probably the hardest part. The plastic top is fastened by plastic clips on the outer edges. There is a non-zero chance you'll break some of the clips. I incrementally applied force from all sides, and managed to pry off the top without breaking any clips.
+</summary>
+<img loading="lazy" src="../static/tl_wa1801_opened1.png">
+<img loading="lazy" src="../static/ta_wa1801_opened_case.png">
+</details>
+#+END_EXPORT
+3.
+ #+BEGIN_EXPORT html
+<details>
+<summary>
+The black heat sink can be taken off by unscrewing the screws at the bottom of the PCB.  Here's a photo of the bottom PCB.
+</summary>
+<img loading="lazy" src="../static/ta_wa1801_back_pcb.png">
+</details>
+#+END_EXPORT
+4. 
+ #+BEGIN_EXPORT html
+<details>
+<summary>
+    Taking off the black heat sink gives you... more heat sinks!
+</summary>
+<img loading="lazy" src="../static/tl_wa1801_top_pcb_with_heatsink.png">
+The metal is actually a lid that's easy to take on and off. Just use something flat to take off the top.
+<br>
+(Notice the 4 pins between the metal heat shinks!)
+</details>
+#+END_EXPORT
+
+Here it is, as seen in the FCC filings:
+#+ATTR_HTML: loading=lazy
+   [[../static/tl_wa1801_top_without_heatsink.png]]
+
+Now then, here are some new, never before seen close ups that the FCC doesn't want you to know:
+#+ATTR_HTML: loading=lazy
+[[../static/ta_wa1801_mediatek.png]]
+#+ATTR_HTML: loading=lazy
+[[../static/ta_wa1801_idkwhatthisis.png]]
+#+ATTR_HTML: loading=lazy
+[[../static/tl_wa1801_the_other_mediatek_chip.png]]
+
+Thus:
+- the processor is the MT7621DAT.
+- the WiFi cards are the MT7905DAN and the MT7975
+
+Next I took a look at the 4 pin serial terminals we saw earlier.
+I first looked for the GND pin. You can easily use your multimeter set to DC mode for this. Just probe a known ground point, and keep probing until the number 0 shows up. I also figured that it uses 3.3V for logic.
+Next I looked for the TX pin. You can again use multimeter set to DC mode for this, and probe where it fluctuates the most. You can also use an oscilloscope, which additionally let's you skip guessing the baud rate. Usually, the baud rate for these things is 115200.
+
+[[../static/rigol_ds1054z_serial_waveform.png]]
+
+In this case, it is 115200: the closest standard baud rate for UART.
+
+* TODO Part 3
+The actually difficult; getting real OpenWRT running on this device, ensuring it won't brick, etc.
