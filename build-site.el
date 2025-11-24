@@ -7,6 +7,7 @@
 
 (setq org-html-head-include-default-style nil
       org-html-head (concat
+		     "<link rel=\"icon\" href=\"/static/favicon.ico\">"
 		     "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />"
 		     "<link rel=\"stylesheet\" href=\"/static/custom.css\">"))
 
@@ -60,7 +61,7 @@
        (list "static"
 	     :base-directory "./static"
 	     :recursive t
-	     :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|svg"
+	     :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|svg\\|ico"
 	     :publishing-directory "./public/static"
 	     :publishing-function 'org-publish-attachment
 	     )))
