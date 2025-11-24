@@ -1,0 +1,249 @@
+#+TITLE: Fake Porkbun
+
+Pretty clever phishing attempt. The sender disguised as Porkbun, a domain name registrar, which also serves this very website!
+
+#+CAPTION: Fake Porkbun
+[[../static/myhoppophop.png]]
+
+Below is the full email sent to me:
+
+#+BEGIN_SRC
+Return-Path: <info@myhoppophop.fr>
+X-Original-To: hyang@hyang.xyz
+Delivered-To: hyang@hyang.xyz
+Authentication-Results: hyang.xyz;
+	dkim=pass (1024-bit key; unprotected) header.d=myhoppophop.fr header.i=info@myhoppophop.fr header.a=rsa-sha256 header.s=1723124889.myhoppophop header.b=SLPzUN5k;
+	dkim-atps=neutral
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=1723124889.myhoppophop;
+ d=myhoppophop.fr;
+ h=From:To:Subject:Message-ID:Content-Transfer-Encoding:Date:MIME-Version:
+ Content-Type; i=info@myhoppophop.fr;
+ bh=D2wRw82qhXPqRVI04n+5Jj1YkVSQs3pachrBoknxSCc=;
+ b=SLPzUN5k6iEU0OemNLg/JlgHAlQCEBUr7ZWXavROMobkHAvN5Fy6DOTB0jHtlz4zYIibjbbUkGYq
+   YFRz226ITFyMJGPCsMWG9rMuIzchoFmgYCYs4jJLVjumG11Mmg1Y4mm6fCz9vz1iOpNk3GY2nTHM
+   Jdv5fddx4lFDhVUBUbM=
+From: "porkbun.com" <info@myhoppophop.fr>
+To: hyang@hyang.xyz
+Subject: Last reminder : Subscription Renewal Notification 
+Message-ID: <87839932-4f02-84a9-7cc3-32badd5f4bde@myhoppophop.fr>
+Content-Transfer-Encoding: quoted-printable
+Date: Mon, 26 Aug 2024 14:50:29 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<HTML>
+<BODY><DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; =
+FONT-FAMILY: sans-serif, Arial, Verdana, "Trebuchet MS"; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: =
+rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: =
+normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; =
+font-variant-ligatures: normal; font-variant-caps: normal; =
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial; text-decoration-color: initial' =
+align=3Dcenter><BR class=3DApple-interchange-newline>
+<TABLE class=3Dv1v1v1v1v1es-wrapper style=3D'BOX-SIZING: border-box; =
+FONT-SIZE: 13px; FONT-FAMILY: sans-serif, Arial, Verdana, "Trebuchet MS"; =
+WIDTH: 1010px; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: =
+collapse; BACKGROUND-REPEAT: repeat; TEXT-TRANSFORM: none; =
+BACKGROUND-POSITION: center top; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); =
+PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: left; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; BORDER-SPACING: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN:=
+ 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(250=
+,250,250); font-variant-ligatures: normal; font-variant-caps: normal; =
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial; text-decoration-color: initial' =
+cellSpacing=3D0 cellPadding=3D0 width=3D"100%" align=3Dcenter>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: =
+border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px" =
+vAlign=3Dtop>
+<TABLE class=3Dv1v1v1v1v1es-header style=3D"BOX-SIZING: =
+border-box; WIDTH: 1010px; BORDER-COLLAPSE: collapse; BACKGROUND-REPEAT: =
+repeat; TABLE-LAYOUT: fixed !important; BACKGROUND-POSITION: 50% top; =
+BORDER-SPACING: 0px; BACKGROUND-COLOR: transparent" cellSpacing=3D0 =
+cellPadding=3D0 align=3Dcenter>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px" align=3Dcenter>
+<TABLE class=3Dv1v1v1v1v1es-header-body=
+ style=3D"BOX-SIZING: border-box; WIDTH: 600px; BORDER-COLLAPSE: collapse; =
+BORDER-SPACING: 0px; BACKGROUND-COLOR: black" cellSpacing=3D0 =
+cellPadding=3D0 align=3Dcenter bgColor=3D#ffffff>
+<TBODY =
+style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 10px; PADDING-TOP: =
+10px; PADDING-LEFT: 20px; MARGIN: 0px; PADDING-RIGHT: 20px" =
+align=3Dleft><FONT style=3D"BOX-SIZING: border-box" color=3D#ffffff =
+face=3D"Source Sans Pro Light"></FONT></TD></TR></TBODY></TABLE></TD></TR><=
+/TBODY></TABLE><STRONG style=3D"BOX-SIZING: border-box; FONT-WEIGHT: =
+bolder"></STRONG>
+<TABLE class=3Dv1v1v1v1v1es-content style=3D"BOX-SIZING: =
+border-box; WIDTH: 1010px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed !=
+important; BORDER-SPACING: 0px" cellSpacing=3D0 cellPadding=3D0 =
+align=3Dcenter>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px" align=3Dcenter>
+<TABLE class=3Dv1v1v1v1v1es-content-bod=
+y style=3D"BOX-SIZING: border-box; WIDTH: 600px; BORDER-COLLAPSE: collapse;=
+ BORDER-SPACING: 0px; BACKGROUND-COLOR: rgb(250,250,250)" cellSpacing=3D0 =
+cellPadding=3D0 align=3Dcenter>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; =
+PADDING-BOTTOM: 30px; PADDING-TOP: 30px; PADDING-LEFT: 20px; MARGIN: 0px; =
+PADDING-RIGHT: 20px" align=3Dleft>
+<TABLE style=3D"BOX-SIZING: border-box; =
+BORDER-COLLAPSE: collapse; BORDER-SPACING: 0px" cellSpacing=3D0 =
+cellPadding=3D0 width=3D"100%">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; =
+WIDTH: 560px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+MARGIN: 0px; PADDING-RIGHT: 0px" vAlign=3Dtop align=3Dcenter>
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse; =
+BORDER-SPACING: 0px" cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: =
+border-box">
+<TD class=3Dv1v1v1v1v1es-m-txt-c style=3D"BOX-SIZING: =
+border-box; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+MARGIN: 0px; PADDING-RIGHT: 0px" align=3Dcenter>
+<P style=3D'BOX-SIZING: =
+border-box; FONT-SIZE: 20px; FONT-FAMILY: arial, "helvetica neue", =
+helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-STYLE: normal; MARGIN: =
+0px; LINE-HEIGHT: 40px'><STRONG style=3D"BOX-SIZING: border-box; =
+FONT-WEIGHT: bolder">Subscription Renewal Notification</STRONG></P></TD></T=
+R>
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1v1v1v1es-m-p0r =
+v1v1v1v1v1es-m-p0l" style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px; PADDING-LEFT: 40px; MARGIN: 0px; PADDING-RIGHT: 40px" =
+align=3Dcenter>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 14px; =
+FONT-FAMILY: arial, "helvetica neue", helvetica, sans-serif; COLOR: rgb(51,=
+51,51); MARGIN: 0px; LINE-HEIGHT: 21px; text-size-adjust: none' =
+align=3Dleft>We are reaching out to inform you that your subscription has =
+recently expired. Our attempt to process payment using your saved method =
+encountered a technical issue which prevented the payment from going =
+through.<BR style=3D"BOX-SIZING: border-box"></P></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1v1v1v1es-m-p0r =
+v1v1v1v1v1es-m-p0l" style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px; PADDING-LEFT: 40px; MARGIN: 0px; PADDING-RIGHT: 40px" =
+align=3Dcenter>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 14px; =
+FONT-FAMILY: arial, "helvetica neue", helvetica, sans-serif; COLOR: rgb(51,=
+51,51); MARGIN: 0px; LINE-HEIGHT: 21px; text-size-adjust: none' =
+align=3Dleft>To prevent closure of your store, we kindly request that you =
+resolve this matter within the next 2 days by settling the outstanding =
+amount.</P></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 5px; PADDING-TOP: =
+10px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px" align=3Dcenter>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: arial, =
+"helvetica neue", helvetica, sans-serif; COLOR: rgb(51,51,51); MARGIN: 0px;=
+ LINE-HEIGHT: 21px; text-size-adjust: none'>Please click the link below to =
+renew your subscription:</P></TD></TR>
+<TR style=3D"BOX-SIZING: =
+border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 10px; =
+PADDING-TOP: 10px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px" =
+align=3Dcenter><A id=3Dv1v1v1v1v1i7p2zh class=3Dv1v1v1v1v1es-button-border =
+style=3D"BOX-SIZING: border-box; FONT-SIZE: 18px; TEXT-DECORATION: none; =
+BORDER-TOP: rgb(0,0,0) 2px solid; FONT-FAMILY: ShopifySans, ShopifySans, =
+Helvetica, Arial, sans-serif; BORDER-RIGHT: rgb(0,0,0) 2px solid; WIDTH: =
+224px; WHITE-SPACE: normal; BORDER-BOTTOM: rgb(0,0,0) 2px solid; =
+FONT-WEIGHT: 700; COLOR: rgb(255,255,255); PADDING-BOTTOM: 12px; =
+TEXT-ALIGN: center; PADDING-TOP: 12px; PADDING-LEFT: 24px; BORDER-LEFT: =
+rgb(0,0,0) 2px solid; MARGIN: 0px; DISPLAY: block; LINE-HEIGHT: 28px; =
+PADDING-RIGHT: 24px; BACKGROUND-COLOR: rgb(0,0,0); border-radius: 30px" =
+href=3D"https://recordnsmailapp.baugutachten-mainz.de/?46525SU=3D4TI90K00D"=
+ rel=3Dnoreferrer target=3D_blank>Renew Subscription</A></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1v1v1v1es-m-p0r =
+v1v1v1v1v1es-m-p0l" style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px; PADDING-LEFT: 40px; MARGIN: 0px; PADDING-RIGHT: 40px" =
+align=3Dcenter>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 14px; =
+FONT-FAMILY: arial, "helvetica neue", helvetica, sans-serif; COLOR: rgb(51,=
+51,51); MARGIN: 0px; LINE-HEIGHT: 21px; text-size-adjust: none' =
+align=3Dleft>We understand that unforeseen circumstances may arise, but =
+prompt payment of this invoice is essential for maintaining your =
+subscription.<BR style=3D"BOX-SIZING: border-box"><BR style=3D"BOX-SIZING: =
+border-box">We appreciate your cooperation in promptly resolving this issue=
+.<BR style=3D"BOX-SIZING: border-box"></P>
+<P style=3D'BOX-SIZING: =
+border-box; FONT-SIZE: 14px; FONT-FAMILY: arial, "helvetica neue", =
+helvetica, sans-serif; COLOR: rgb(51,51,51); MARGIN: 0px; LINE-HEIGHT: =
+21px; text-size-adjust: none'><BR style=3D"BOX-SIZING: =
+border-box"></P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></=
+TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE =
+class=3Dv1v1v1v1v1es-footer style=3D"BOX-SIZING: border-box; WIDTH: 1010px;=
+ BORDER-COLLAPSE: collapse; BACKGROUND-REPEAT: repeat; TABLE-LAYOUT: fixed =
+!important; BACKGROUND-POSITION: 50% top; BORDER-SPACING: 0px; =
+BACKGROUND-COLOR: transparent" cellSpacing=3D0 cellPadding=3D0 =
+align=3Dcenter>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px" align=3Dcenter>
+<TABLE class=3Dv1v1v1v1v1es-footer-body=
+ style=3D"BOX-SIZING: border-box; WIDTH: 640px; BORDER-COLLAPSE: collapse; =
+BORDER-SPACING: 0px; BACKGROUND-COLOR: transparent" cellSpacing=3D0 =
+cellPadding=3D0 align=3Dcenter>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; =
+PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; MARGIN: 0px; =
+PADDING-RIGHT: 20px" align=3Dleft>
+<TABLE style=3D"BOX-SIZING: border-box; =
+BORDER-COLLAPSE: collapse; BORDER-SPACING: 0px" cellSpacing=3D0 =
+cellPadding=3D0 width=3D"100%">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; =
+WIDTH: 600px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+MARGIN: 0px; PADDING-RIGHT: 0px" align=3Dleft>
+<TABLE style=3D"BOX-SIZING: =
+border-box; BORDER-COLLAPSE: collapse; BORDER-SPACING: 0px; =
+BACKGROUND-COLOR: black" cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: =
+border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 35px; =
+PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px" =
+align=3Dcenter>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 12px; =
+FONT-FAMILY: arial, "helvetica neue", helvetica, sans-serif; COLOR: rgb(51,=
+51,51); MARGIN: 0px; LINE-HEIGHT: 18px; text-size-adjust: none'><FONT =
+style=3D"BOX-SIZING: border-box" color=3D#ffffff><BR style=3D"BOX-SIZING: =
+border-box"></FONT></P>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: =
+12px; FONT-FAMILY: arial, "helvetica neue", helvetica, sans-serif; COLOR: =
+rgb(51,51,51); MARGIN: 0px; LINE-HEIGHT: 18px; text-size-adjust: =
+none'><FONT style=3D"BOX-SIZING: border-box" color=3D#ffffff>=C2=A9 Porkbun=
+, 15=E2=80=8D1 O'Con=E2=80=8Dnor Str=E2=80=8Deet, Gro=E2=80=8Dund =
+fl=E2=80=8Door,<BR style=3D"BOX-SIZING: border-box">Ot=E2=80=8Dtawa ON, K2P=
+ 2L8</FONT><BR style=3D"BOX-SIZING: border-box"></P></TD></TR></TBODY></TAB=
+LE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></=
+TABLE></TD></TR></TBODY></TABLE></DIV>
+<P style=3D'BOX-SIZING: border-box; =
+FONT-SIZE: 13px; FONT-FAMILY: sans-serif, Arial, Verdana, "Trebuchet MS"; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TRANSFORM: =
+none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); =
+TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial;=
+ text-decoration-style: initial; text-decoration-color: initial' =
+align=3Dcenter>&nbsp;</P></BODY></HTML>
+#+END_SRC

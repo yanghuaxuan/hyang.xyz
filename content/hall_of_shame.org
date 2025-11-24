@@ -1,0 +1,7 @@
+#+OPTIONS: toc:nil
+#+TITLE: hall of shame
+
+I currently run a personal email server on this domain, which doesn’t have spam filters of any kind (half due to laziness and half just curious). In lieu of a spam filter, I will post full emails of those who attempt to scam me.
+
+- [[./hall_of_shame/failed_spotify_scam.org][2024-09-05 <support.spotify@cindyphenixmedium.com>]]
+- [[file:hall_of_shame/fake_porkbun.org][2024-08-26 <info@myhoppophop.fr>]]

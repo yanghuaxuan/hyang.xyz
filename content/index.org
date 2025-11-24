@@ -1,4 +1,6 @@
 #+OPTIONS: toc:nil
+#+OPTIONS: title:nil
+#+TITLE: hyang.xyz
 
 Welcome to my corner of the world!
 

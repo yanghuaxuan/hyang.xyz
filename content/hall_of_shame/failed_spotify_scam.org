@@ -1,0 +1,796 @@
+#+TITLE:  Failed Spotify Phishing Attempt
+
+From <support.spotify@cindyphenixmedium.com>
+
+Pretended to be Spotify. I don’t have Spotify premium, so this didn’t work on me. Better luck next time!
+
+I’m not actually sure if the domain is entirely owned by the scammer in question, or if they just got hacked and are being exploited
+
+#+CAPTION: Sus Spotify email
+[[../fake_spotify.png]]
+
+
+#+begin_src
+Return-Path: &lt;support.spotify@cindyphenixmedium.com&gt;
+X-Original-To: hyang@hyang.xyz
+Delivered-To: hyang@hyang.xyz
+Authentication-Results: hyang.xyz;
+	dkim=pass (1024-bit key; secure) header.d=cindyphenixmedium.com header.i=support.spotify@cindyphenixmedium.com header.a=rsa-sha256 header.s=1724361908.cindyphenixmedium header.b=mqyZ0K3I;
+	dkim-atps=neutral
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=1724361908.cindyphenixmedium;
+ d=cindyphenixmedium.com;
+ h=From:To:Subject:Message-ID:Content-Transfer-Encoding:Date:MIME-Version:
+ Content-Type; i=support.spotify@cindyphenixmedium.com;
+ bh=/6V7uyHsXHrZVA34fU/NWVcYBl31+u+HcYi4qA/f3lY=;
+ b=mqyZ0K3IUL48JmHXkqEHwOOeaskl0KvnObU+qHUDz/4WoNoDVugxxglkbjFZVJaM0WFhvr6PnxHQ
+   mgyk8v2Iwtxdxcas9wiy4OI587bkL5cWh039QG0gPRk9oEu8FnXBBKAIEBRP3ha2cdbEzG8kCv0C
+   82Ns3v1pfuyCgNvzsAw=
+X-Priority: 3
+From: =?UTF-8?B?U+KAi+KAi+KAi3BvdOKAi+KAi+KAi2lm4oCL4oCL?=
+ =?UTF-8?B?4oCLeQ==?= &lt;support.spotify@cindyphenixmedium.com&gt;
+To: hyang@hyang.xyz
+Subject: =?UTF-8?Q?Subs=E2=80=8B=E2=80=8B=E2=80=8Bcripti?=
+ =?UTF-8?Q?=E2=80=8B=E2=80=8B=E2=80=8Bon_Notifi?=
+ =?UTF-8?Q?=E2=80=8B=E2=80=8B=E2=80=8Bcatio?=
+ =?UTF-8?Q?=E2=80=8B=E2=80=8B=E2=80=8Bn=20?=
+Message-ID: &lt;ca022662-e3a6-4f94-3e84-4096f492efa7@cindyphenixmedium.com&gt;
+Content-Transfer-Encoding: quoted-printable
+Date: Thu, 05 Sep 2024 21:01:41 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+&lt;html lang=3D"de"&gt;
+  &lt;head&gt;
+    &lt;style&gt;
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: auto !important;
+        overflow-y: hidden !important
+      }
+
+      .mail-detail-content {
+        box-sizing: border-box;
+        font-family: -apple-system, =
+BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple=
+ Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 13px;
+        font-weight: normal;
+        font-feature-settings: "liga"0;
+        width: 100%;
+        position: relative;
+        padding: 0
+      }
+
+      .ios.smartphone .mail-detail-content {
+        =
+-webkit-overflow-scrolling: touch;
+        overflow-x: auto
+      }
+
+      .smartphone .mail-detail-content {
+        font-size: 15px
+      }
+
+      .mail-detail-content&gt;div&gt;[class$=3D"-content"] {
+        padding: 0
+      }
+
+      .mail-detail-content.plain-text {
+        font-family: =
+-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, =
+sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        white-space: pre-wrap
+      }
+
+      .mail-detail-content.=
+plain-text blockquote {
+        white-space: normal
+      }
+
+      .mail-detail-content.fixed-width-font,
+      .mail-detail-content.=
+fixed-width-font.plain-text,
+      .mail-detail-content.fixed-width-font =
+blockquote,
+      .mail-detail-content.fixed-width-font.plain-text =
+blockquote,
+      .mail-detail-content.fixed-width-font blockquote p,
+      .mail-detail-content.fixed-width-font.plain-text blockquote p {
+        font-family: monospace;
+        -webkit-font-feature-settings: =
+normal;
+        font-feature-settings: normal
+      }
+
+      .mail-detail-content.simple-mail {
+        max-width: 700px
+      }
+
+      .mail-detail-content.simple-mail.big-screen {
+        max-width: 100%
+      }
+
+      .mail-detail-content.simple-mail img {
+        max-width: 100%;
+        height: auto !important
+      }
+
+      .mail-detail-content img[src=3D""] {
+        background-color: rgba(0=
+, 0, 0, 0.1);
+        background-image: repeating-linear-gradient(45deg, =
+transparent, transparent 20px, rgba(255, 255, 255, 0.5) 20px, rgba(255, 255=
+, 255, 0.5) 40px)
+      }
+
+      .mail-detail-content p {
+        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", =
+"Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", =
+"Segoe UI Symbol";
+        margin: 0 0 1em 0
+      }
+
+      .mail-detail-content h1 {
+        font-size: 28px
+      }
+
+      .mail-detail-content h2 {
+        font-size: 21px
+      }
+
+      .mail-detail-content h3 {
+        font-size: 16.38px
+      }
+
+      .mail-detail-content h4 {
+        font-size: 14px
+      }
+
+      .mail-detail-content h5 {
+        font-size: 11.62px
+      }
+
+      .mail-detail-content h6 {
+        font-size: 9.38px
+      }
+
+      .mail-detail-content a {
+        word-break: break-word;
+        text-decoration: none;
+        color: inherit
+      }
+
+      .mail-detail-content a:hover {
+        color: inherit
+      }
+
+      .mail-detail-content a[href] {
+        color: #3c61aa;
+        text-decoration: underline
+      }
+
+      .mail-detail-content th {
+        padding: 8px;
+        text-align: center
+      }
+
+      .mail-detail-content th[align=3D"left"] {
+        text-align: left
+      }
+
+      .mail-detail-content .calendar-detail .label {
+        display: block;
+        text-shadow: none;
+        font-weight: =
+normal;
+        background-color: transparent
+      }
+
+      .mail-detail-content img.emoji-softbank {
+        margin: 0 2px
+      }
+
+      .mail-detail-content pre {
+        word-break: keep-all;
+        word-break: initial;
+        white-space: pre-wrap;
+        background-color: transparent;
+        border: 0 none;
+        border-radius: 0
+      }
+
+      .mail-detail-content table {
+        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", =
+"Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", =
+"Segoe UI Symbol";
+        font-size: 13px;
+        font-weight: normal;
+        font-feature-settings: "liga"0;
+        line-height: normal;
+        border-collapse: collapse
+      }
+
+      .mail-detail-content ul,
+      .mail-detail-content ol {
+        padding: 0;
+        padding-left: 16px;
+        margin: 1em 0 1em 24px
+      }
+
+      .mail-detail-content ul {
+        list-style-type: disc
+      }
+
+      .mail-detail-content ul ul {
+        list-style-type: circle
+      }
+
+      .mail-detail-content ul ul ul {
+        list-style-type: square
+      }
+
+      .mail-detail-content li {
+        line-height: normal;
+        margin-bottom: 0.5em
+      }
+
+      .mail-detail-content blockquote=
+ {
+        color: #555;
+        font-size: 13px;
+        border-left: 2px =
+solid #ddd;
+        padding: 0 0 0 16px;
+        margin: 16px 0 16px 0
+      }
+
+      .mail-detail-content blockquote p {
+        font-size: 13px
+      }
+
+      .mail-detail-content blockquote blockquote {
+        border-color: #283f73;
+        margin: 8px 0
+      }
+
+      .mail-detail-content.colorQuoted blockquote blockquote {
+        color: #283f73 !important;
+        border-left: 2px solid #283f73
+      }
+
+      .mail-detail-content.colorQuoted blockquote blockquote =
+a[href]:not(.deep-link) {
+        color: #283f73
+      }
+
+      .mail-detail-content.colorQuoted blockquote blockquote a[href]:not(.=
+deep-link):hover {
+        color: #1b2a4d
+      }
+
+      .=
+mail-detail-content.colorQuoted blockquote blockquote blockquote {
+        color: #dd0880 !important;
+        border-left: 2px solid #dd0880
+      }
+
+      .mail-detail-content.colorQuoted blockquote blockquote =
+blockquote a[href]:not(.deep-link) {
+        color: #dd0880
+      }
+
+      .mail-detail-content.colorQuoted blockquote blockquote blockquote =
+a[href]:not(.deep-link):hover {
+        color: #ac0663
+      }
+
+      .mail-detail-content.colorQuoted blockquote blockquote blockquote =
+blockquote {
+        color: #8f09c7 !important;
+        border-left: 2px =
+solid #8f09c7
+      }
+
+      .mail-detail-content.colorQuoted blockquote =
+blockquote blockquote blockquote a[href]:not(.deep-link) {
+        color: #8f09c7
+      }
+
+      .mail-detail-content.colorQuoted =
+blockquote blockquote blockquote blockquote a[href]:not(.deep-link):hover {
+        color: #6c0796
+      }
+
+      .mail-detail-content.colorQuoted =
+blockquote blockquote blockquote blockquote blockquote {
+        color: #767676 !important;
+        border-left: 2px solid #767676
+      }
+
+      .mail-detail-content.colorQuoted blockquote blockquote =
+blockquote blockquote blockquote a[href]:not(.deep-link) {
+        color: #767676
+      }
+
+      .mail-detail-content.colorQuoted =
+blockquote blockquote blockquote blockquote blockquote a[href]:not(.=
+deep-link):hover {
+        color: #5d5d5d
+      }
+
+      .=
+mail-detail-content.disable-links a[href] {
+        color: #aaa !important;
+        text-decoration: line-through !important;
+        cursor: default !=
+important;
+        pointer-events: none !important
+      }
+
+      .mail-detail-content .blockquote-toggle {
+        color: #767676;
+        font-size: 13px;
+        padding-left: 56px;
+        margin: 16px 0;
+        min-height: 16px;
+        word-break: =
+break-word
+      }
+
+      .mail-detail-content .blockquote-toggle button.=
+bqt {
+        color: #696969;
+        background-color: #eee;
+        padding: 1px 10px;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 16px;
+        cursor: pointer;
+        outline: 0;
+        position: absolute;
+        left: 0;
+        border: 0
+      }
+
+      .mail-detail-content .=
+blockquote-toggle button.bqt:hover,
+      .mail-detail-content .=
+blockquote-toggle button.bqt:focus {
+        color: #fff;
+        background-color: #3c61aa;
+        text-decoration: none
+      }
+
+      .mail-detail-content .max-size-warning {
+        color: #767676;
+        padding: 16px 16px 0 16px;
+        border-top: 1px solid #ddd
+      }
+
+      .mail-detail-content a.deep-link {
+        color: white;
+        background-color: #3c61aa;
+        text-decoration: none;
+        font-size: 90%;
+        font-weight: bold;
+        font-family: =
+-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, =
+sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !=
+important;
+        padding: 0.10em 8px;
+        border-radius: 3px
+      }
+
+      .mail-detail-content a.deep-link:hover,
+      .mail-detail-content a.=
+deep-link:focus,
+      .mail-detail-content a.deep-link:active {
+        color: white;
+        background-color: #2f4b84
+      }
+
+      @media print {
+        .mail-detail-content .collapsed-blockquote {
+          display: block !important
+        }
+
+        .mail-detail-content=
+ .blockquote-toggle {
+          display: none !important
+        }
+      }
+
+      .mail-detail-content&gt;div[id*=3D"ox-"]&gt;h1,
+      .=
+mail-detail-content&gt;div[id*=3D"ox-"]&gt;h2,
+      .mail-detail-content&gt;div[id*=
+=3D"ox-"]&gt;h3,
+      .mail-detail-content&gt;div[id*=3D"ox-"]&gt;h4,
+      .mail-detail-content&gt;div[id*=3D"ox-"]&gt;h5 {
+        margin-top: 0
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body class=3D"mail-detail-content noI18n =
+colorQuoted" role=3D"complementary" aria-label=3D"Subscription Renewal =
+Notification"&gt;
+    &lt;style&gt;
+      body.mail-detail-content {
+        font-family: sans-serif, Arial, Verdana, "Trebuchet MS";
+        font-size: 10pt;
+        color: rgb(51, 51, 51);
+        background-color: rgb(255, 255, 255);
+        margin: 5px;
+      }
+    &lt;/style&gt;
+    &lt;div dir=3D"ltr" style=3D"background-color: rgb(250, 250, =
+250);" class=3D"es-wrapper-color"&gt;
+      &lt;table cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"background-position: center top; margin: 0px; =
+padding: 0px; width: 100%; height: initial; border-collapse: collapse; =
+border-spacing: 0px; background-repeat: repeat; background-color: white;" =
+class=3D"es-wrapper" width=3D"100%" height=3D""&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td style=3D"margin: 0px; padding: 0px;" =
+valign=3D"top"&gt;
+              &lt;table cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"background-position: top; width: 100%; border-collapse: collapse; =
+table-layout: fixed !important; border-spacing: 0px; background-repeat: =
+repeat; background-color: transparent; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;" class=3D"es-header" align=3D"center"&gt;
+                &lt;tbody&gt;
+                  &lt;tr&gt;
+                    &lt;td =
+style=3D"margin: 0px; padding: 0px;" align=3D"center"&gt;
+                      &lt;table cellpadding=3D"0" cellspacing=3D"0" =
+bgcolor=3D"#ffffff" style=3D"width: 600px; border-collapse: collapse; =
+border-spacing: 0px; background-color: white; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;" class=3D"es-header-body" align=3D"center"&gt;
+                        &lt;tbody&gt;
+                          &lt;tr&gt;
+                            &lt;td style=3D"margin: 0px; padding: 10px 20px;" =
+align=3D"left"&gt;
+                              &lt;table cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-collapse: collapse; border-spacing: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%"&gt;
+                                &lt;tbody&gt;
+                                  =
+&lt;tr&gt;
+                                    &lt;td style=3D"margin: 0px; padding:=
+ 0px; width: 560px;" valign=3D"top" class=3D"es-m-p0r" align=3D"center"&gt;
+                                      &lt;strong&gt;&lt;/strong&gt;
+                                      &lt;table cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-collapse: collapse; border-spacing: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%"&gt;
+                                        &lt;tbody&gt;
+                           =
+               &lt;tr&gt;
+                                            &lt;td =
+style=3D"margin: 0px; font-size: 0px;" align=3D"left"&gt;
+                                              &lt;strong&gt;
+                                                &lt;img alt=3D"Logo Spotify" =
+style=3D"border: 0px currentColor; border-image: none; width: 140px; /*! =
+height: 54px; */ font-size: 12px; text-decoration: none; display: block; =
+-ms-interpolation-mode: bicubic;" src=3D"data:image/png;base64,=
+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3D"&gt;
+                                              &lt;/strong&gt;
+                                            &lt;/td&gt;
+                         =
+                 &lt;/tr&gt;
+                                        &lt;/tbody&gt;
+                                      &lt;/table&gt;
+                            =
+        &lt;/td&gt;
+                                  &lt;/tr&gt;
+                                &lt;/tbody&gt;
+                              =
+&lt;/table&gt;
+                            &lt;/td&gt;
+                          &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                      &lt;/table&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/tbody&gt;
+              &lt;/table&gt;
+              &lt;strong&gt;&lt;/strong&gt;
+              &lt;table cellpadding=3D"0" cellspacing=3D"0" style=3D"width: =
+100%; border-collapse: collapse; table-layout: fixed !important; =
+border-spacing: 0px; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" =
+class=3D"es-content" align=3D"center"&gt;
+                &lt;tbody&gt;
+                  &lt;tr&gt;
+                    &lt;td style=3D"margin: 0px; =
+padding: 0px;" align=3D"center"&gt;
+                      &lt;table =
+cellpadding=3D"0" cellspacing=3D"0" style=3D"width: 600px; border-collapse:=
+ collapse; border-spacing: 0px; background-color: white; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;" class=3D"es-content-body" align=3D"center"&gt;
+                        &lt;tbody&gt;
+                          &lt;tr&gt;
+                            &lt;td style=3D"margin: 0px; padding: 30px 20px;" =
+align=3D"left"&gt;
+                              &lt;table cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-collapse: collapse; border-spacing: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%"&gt;
+                                &lt;tbody&gt;
+                                  =
+&lt;tr&gt;
+                                    &lt;td style=3D"margin: 0px; padding:=
+ 0px; width: 560px;" valign=3D"top" align=3D"center"&gt;
+                                      &lt;table cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-collapse: collapse; border-spacing: 0px; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%"&gt;
+                                        &lt;tbody&gt;
+                           =
+               &lt;tr&gt;
+                                            &lt;td =
+style=3D"margin: 0px; padding: 0px 0px 10px;" class=3D"es-m-txt-c" =
+align=3D"center"&gt;
+                                              &lt;p =
+style=3D"margin: 0px; color: rgb(51, 51, 51); line-height: 40px; =
+font-family: arial, &amp;quot;helvetica neue&amp;quot;, helvetica, sans-serif; =
+font-size: 20px; font-style: normal; mso-line-height-rule: exactly;"&gt;
+                                                &lt;strong&gt;Subscription =
+Notification&lt;/strong&gt;
+                                              &lt;/p&gt;
+                                            &lt;/td&gt;
+                         =
+                 &lt;/tr&gt;
+                                          &lt;tr&gt;
+                                            &lt;td style=3D"margin: 0px; =
+padding: 5px 40px;" class=3D"es-m-p0r es-m-p0l" align=3D"center"&gt;
+                                              &lt;p style=3D"margin: 0px; =
+color: rgb(51, 51, 51); line-height: 21px; font-family: arial, =
+&amp;quot;helvetica neue&amp;quot;, helvetica, sans-serif; font-size: 14px; =
+-ms-text-size-adjust: none; mso-line-height-rule: exactly; =
+-webkit-text-size-adjust: none;" align=3D"left"&gt; We are reaching out to =
+inform you that your subscription has recently expired. Our attempt to =
+process payment using your saved method encountered a technical issue which=
+ prevented the payment from going through. &lt;br&gt;
+                           =
+                   &lt;/p&gt;
+                                            &lt;/td&gt;
+                                          &lt;/tr&gt;
+                           =
+               &lt;tr&gt;
+                                            &lt;td =
+style=3D"margin: 0px; padding: 5px 40px;" class=3D"es-m-p0r es-m-p0l" =
+align=3D"center"&gt;
+                                              &lt;p =
+style=3D"margin: 0px; color: rgb(51, 51, 51); line-height: 21px; =
+font-family: arial, &amp;quot;helvetica neue&amp;quot;, helvetica, sans-serif; =
+font-size: 14px; -ms-text-size-adjust: none; mso-line-height-rule: exactly;=
+ -webkit-text-size-adjust: none;" align=3D"left"&gt; To prevent closure of =
+your plan, we kindly request that you resolve this matter within the next 2=
+ days by settling the outstanding amount. &lt;/p&gt;
+                            =
+                &lt;/td&gt;
+                                          &lt;/tr&gt;
+                                          &lt;tr&gt;
+                            =
+                &lt;td style=3D"margin: 0px; padding: 10px 0px 5px;" =
+align=3D"center"&gt;
+                                              &lt;p =
+style=3D"margin: 0px; color: rgb(51, 51, 51); line-height: 21px; =
+font-family: arial, &amp;quot;helvetica neue&amp;quot;, helvetica, sans-serif; =
+font-size: 14px; -ms-text-size-adjust: none; mso-line-height-rule: exactly;=
+ -webkit-text-size-adjust: none;"&gt; Please click the link below to renew =
+your subscription: &lt;/p&gt;
+                                            &lt;/td&gt;
+                                          &lt;/tr&gt;
+                           =
+               &lt;tr&gt;
+                                            &lt;td =
+style=3D"margin: 0px; padding: 10px 0px;" align=3D"center"&gt;
+                                              &lt;a target=3D"_blank" =
+href=3D"http://kouline.lrouximmobilier.fr/#tyaqy75se1" style=3D"margin: =
+0px; padding: 12px 24px; border-radius: 30px; border: 2px solid rgb(30, 215=
+, 96); border-image: none; width: 40%; text-align: center; color: rgb(255, =
+255, 255); line-height: 28px; font-family: &amp;quot;ShopifySans&amp;quot;, =
+ShopifySans, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: =
+700; text-decoration: none; display: block; white-space: normal; =
+background-color: rgb(30, 215, 96);" id=3D"i7p2zh" class=3D"es-button-borde=
+r" rel=3D"noopener"&gt;Subscription&lt;/a&gt;
+                                      =
+      &lt;/td&gt;
+                                          &lt;/tr&gt;
+                                          &lt;tr&gt;
+                            =
+                &lt;td style=3D"margin: 0px; padding: 5px 40px;" =
+class=3D"es-m-p0r es-m-p0l" align=3D"center"&gt;
+                             =
+                 &lt;p style=3D"margin: 0px; color: rgb(51, 51, 51); =
+line-height: 21px; font-family: arial, &amp;quot;helvetica neue&amp;quot;, =
+helvetica, sans-serif; font-size: 14px; -ms-text-size-adjust: none; =
+mso-line-height-rule: exactly; -webkit-text-size-adjust: none;" =
+align=3D"left"&gt; We understand that unforeseen circumstances may arise, but =
+prompt payment of this invoice is essential for maintaining your =
+subscription. &lt;br&gt;
+                                                &lt;br&gt;We =
+appreciate your cooperation in promptly resolving this issue. &lt;br&gt;
+                                              &lt;/p&gt;
+                        =
+                      &lt;p style=3D"margin: 0px; color: rgb(51, 51, 51); =
+line-height: 21px; font-family: arial, &amp;quot;helvetica neue&amp;quot;, =
+helvetica, sans-serif; font-size: 14px; -ms-text-size-adjust: none; =
+mso-line-height-rule: exactly; -webkit-text-size-adjust: none;"&gt;
+                                                &lt;br&gt;
+                                              &lt;/p&gt;
+                        =
+                    &lt;/td&gt;
+                                          &lt;/tr&gt;
+                                        &lt;/tbody&gt;
+                          =
+            &lt;/table&gt;
+                                    &lt;/td&gt;
+                                  &lt;/tr&gt;
+                                =
+&lt;/tbody&gt;
+                              &lt;/table&gt;
+                           =
+ &lt;/td&gt;
+                          &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                      &lt;/table&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/tbody&gt;
+              &lt;/table&gt;
+              &lt;table cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"background-position: top; width: 100%; border-collapse: collapse; =
+table-layout: fixed !important; border-spacing: 0px; background-repeat: =
+repeat; background-color: transparent; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;" class=3D"es-footer" align=3D"center"&gt;
+                &lt;tbody&gt;
+                  &lt;tr&gt;
+                    &lt;td =
+style=3D"margin: 0px; padding: 0px;" align=3D"center"&gt;
+                      &lt;table cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"width: 640px; border-collapse: collapse; border-spacing: 0px; =
+background-color: transparent; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;" class=3D"es-footer-body" align=3D"center"&gt;
+                        =
+&lt;tbody&gt;
+                          &lt;tr&gt;
+                            &lt;td =
+style=3D"margin: 0px; padding: 20px;" align=3D"left"&gt;
+                              &lt;table cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"border-collapse: collapse; border-spacing: 0px; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;" width=3D"100%"&gt;
+                              =
+  &lt;tbody&gt;
+                                  &lt;tr&gt;
+                          =
+          &lt;td style=3D"margin: 0px; padding: 0px; width: 600px;" =
+align=3D"left"&gt;
+                                      &lt;table =
+cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: collapse; =
+border-spacing: 0px; background-color: #f7f7f7; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;" width=3D"100%"&gt;
+                                   =
+     &lt;tbody&gt;
+                                          &lt;tr&gt;
+                                            &lt;td style=3D"margin: 0px; =
+padding: 0px 0px 35px;" align=3D"center"&gt;
+                                 =
+             &lt;p style=3D"margin: 0px; color: rgb(51, 51, 51); line-height: =
+18px; font-family: arial, &amp;quot;helvetica neue&amp;quot;, helvetica, =
+sans-serif; font-size: 12px; -ms-text-size-adjust: none; =
+mso-line-height-rule: exactly; -webkit-text-size-adjust: none;"&gt;
+                                                &lt;font color=3D"#ffffff"&gt;
+                                                  &lt;br&gt;
+                                                &lt;/font&gt;
+                                              &lt;/p&gt;
+                        =
+                      &lt;p style=3D"margin: 0px; color: rgb(51, 51, 51); =
+line-height: 18px; font-family: arial, &amp;quot;helvetica neue&amp;quot;, =
+helvetica, sans-serif; font-size: 12px; -ms-text-size-adjust: none; =
+mso-line-height-rule: exactly; -webkit-text-size-adjust: none;"&gt;
+                                                &lt;font =
+color=3D"#88898c"&gt;=C2=A9 Spotify AB, Regeringsgatan 19, 111 53, Stockholm, =
+Sweden&lt;/font&gt;
+                                                &lt;br&gt;
+                                              &lt;/p&gt;
+                        =
+                    &lt;/td&gt;
+                                          &lt;/tr&gt;
+                                        &lt;/tbody&gt;
+                          =
+            &lt;/table&gt;
+                                    &lt;/td&gt;
+                                  &lt;/tr&gt;
+                                =
+&lt;/tbody&gt;
+                              &lt;/table&gt;
+                           =
+ &lt;/td&gt;
+                          &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                      &lt;/table&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/tbody&gt;
+              &lt;/table&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+#+end_src
