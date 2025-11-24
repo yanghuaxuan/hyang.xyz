@@ -2,7 +2,7 @@
 #+TITLE: blogpostings
 Random things that was worthy of writing at the time.
 **  Auguest 2025
-- [[file:blogpostings/tl_wa1801_abuse.org][Abusing My New Wi-Fi Access Point So I Liberate It with a Real Operating System]]
+- [[file:blogpostings/tl_wa1801_abuse.org][Abusing My New Wi-Fi Access Point So I Can Liberate It with a Real Operating System]]
 **  December 2023
 - [[file:blogpostings/c_memory_allocator.org][The C Memory Allocator]]
 **  September 2023

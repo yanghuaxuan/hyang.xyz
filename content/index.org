@@ -48,4 +48,4 @@ Hope you enjoy your stay.
 #+END_EXPORT
 
 * 
-Made with Emacs,  [[https://orgmode.org][org-mode]], and [[https://simplecss.org][simple.css]]
+Made with GNU Emacs,  [[https://orgmode.org][org-mode]], and [[https://simplecss.org][simple.css]]
