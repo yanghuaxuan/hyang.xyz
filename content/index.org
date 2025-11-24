@@ -2,14 +2,13 @@
 #+OPTIONS: title:nil
 #+TITLE: hyang.xyz
 
-Welcome to my corner of the world!
-
-I'm Jason Yang. I'm a soon to be Computer Engineer @ UCSC interested in systems programming and possibly designing the hardware to be interfaced with in the first place.
-
-Here you can find blogposts documenting things I found interesting (at least during the time published). You can also find other places where I yap at.
-
-All content in this site do not come with warranty!
-
+#+ATTR_HTML: :class notice
+Welcome to my little corner of the world! \\
+\\
+I'm Jason Yang. I'm a soon to be Computer Engineer @ UCSC interested in systems programming and possibly designing the hardware to be interfaced with in the first place. \\
+Here you can find blogposts documenting things I found interesting (at least during the time published). You can also find other places where I yap at. \\
+\\
+All content in this site comes without warranty! \\
 Hope you enjoy your stay.
 
 ** Places Where I Yap
@@ -49,4 +48,4 @@ Hope you enjoy your stay.
 #+END_EXPORT
 
 * 
-Made with Emacs and [[https://orgmode.org][org-mode]]
+Made with Emacs,  [[https://orgmode.org][org-mode]], and [[https://simplecss.org][simple.css]]
