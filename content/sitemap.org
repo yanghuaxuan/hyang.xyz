@@ -1,5 +1,6 @@
 #+TITLE: Sitemap for project hyang.xyz
 
+- [[file:projects.org][Projects]]
 - [[file:blog.org][blogpostings]]
 - [[file:hall_of_shame.org][hall of shame]]
 - [[file:index.org][hyang.xyz]]

@@ -24,3 +24,7 @@
     url("https://db.onlinewebfonts.com/t/815c035c68215e882a2fb4783d3737c3.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/815c035c68215e882a2fb4783d3737c3.svg#Iosevka Term SS10")format("svg");
 }
+
+.todo {
+    color: red;
+}

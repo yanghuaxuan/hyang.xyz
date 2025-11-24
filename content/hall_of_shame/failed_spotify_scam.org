@@ -7,7 +7,7 @@ Pretended to be Spotify. I don’t have Spotify premium, so this didn’t work o
 I’m not actually sure if the domain is entirely owned by the scammer in question, or if they just got hacked and are being exploited
 
 #+CAPTION: Sus Spotify email
-[[../fake_spotify.png]]
+[[../static/fake_spotify.png]]
 
 
 #+begin_src

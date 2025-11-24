@@ -47,10 +47,21 @@
 	     :time-stamp-file nil
 	     :html-validation-link nil
 	     :section-numbers nil)
-       (list "hall of shame"
+       (list "blogpostings"
 	     :base-directory "./content/blogpostings"
 	     :recursive nil
 	     :publishing-directory "./public/blogpostings"
+	     :publishing-function 'org-html-publish-to-html
+	     :auto-sitemap nil
+	     ;; :html-preamble t
+	     :with-author nil
+	     :time-stamp-file nil
+	     :html-validation-link nil
+	     :section-numbers nil)
+       (list "projects"
+	     :base-directory "./content/projects"
+	     :recursive nil
+	     :publishing-directory "./public/projects"
 	     :publishing-function 'org-html-publish-to-html
 	     :auto-sitemap nil
 	     ;; :html-preamble t
