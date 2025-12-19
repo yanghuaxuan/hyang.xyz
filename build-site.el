@@ -22,6 +22,8 @@
 		      "</nav>"
 	      "</header>"))
 
+(setq org-export-with-priority t)
+
 
 (setq org-publish-project-alist
       (list

@@ -2,10 +2,33 @@
 
 Here lies a list of projects I've worked on, with no guarantee of being finished.
 
-* TODO Reverse Engineering TL-WA1801
+* DONE Home "Kitchen"
+It's a kitchen for soldering chicken, 100% lead free.
+#+ATTR_HTML: :width 400
+[[../static/6rq3kn.jpg]]
+* DONE FPGA "Accelerated" 2D Convolution
+Final project for a ASIC/FPGA design course. Scuffed 2D convolution using line buffers, with the image input and output sent via simple UART. Actually it's two convolutions in parallel, to apply a [[https://en.wikipedia.org/wiki/Sobel_operator][sobel filter]] on an image.
+
+It is then mapped to HSV color space, where H is $\mathrm{atan2(gy/gx)}+\pi$, with $gy$ and $gx$ being the individual gradient elements of their respective gradient matrix, and V being the magnitude of the two gradient elements.
+
+#+BEGIN_EXPORT HTML
+<div class="multi-figure">
+  <img src="../static/lab8_car_og.png">
+  <img src="../static/lab8_car_hsv.png">
+</div>
+#+END_EXPORT
+#+ATTR_HTML: :width 400
+[[../static/sobel_hsv_fumo.jpg]]
+
+Certified AI ready.
+
+Will polish up source code for public viewing soon(tm)
+* TODO [#A] USB to JTAG/SPI/I2C/XYZ Adapter
+Custom PCB  for communicating with various protocols with USB. It's not as [[https://ftdichip.com/wp-content/uploads/2022/06/DS_FT2233HP.pdf][complicated as it sounds]]; just wanted to practice PCB design again on something that is really useful.
+* TODO [#B] Reverse Engineering TL-WA1801
 Small project to flash OpenWRT on a router not yet official supported by OpenWRT.
 - [[file:blogpostings/tl_wa1801_abuse.org][Project blog]]
-* TODO Jailcel
+* TODO [#B] Jailcel
 Mini Linux container from scratch, with isolated networking capabilities. Lots of effort learning Linux namespaces only to have it converge to being a Bubblewrap clone... but at least you can host stuff without the consequences of getting hacked, without the luggage of re-installing 100 userspace tools and libraries per service
 - [[https://github.com/yanghuaxuan/jailcel][Repository]]
 * hyang.xyz
