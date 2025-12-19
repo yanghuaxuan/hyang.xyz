@@ -9,7 +9,7 @@ It's a kitchen for soldering chicken, 100% lead free.
 * DONE FPGA "Accelerated" 2D Convolution
 Final project for a ASIC/FPGA design course. Scuffed 2D convolution using line buffers, with the image input and output sent via simple UART. Actually it's two convolutions in parallel, to apply a [[https://en.wikipedia.org/wiki/Sobel_operator][sobel filter]] on an image.
 
-It is then mapped to HSV color space, where H is $\mathrm{atan2(gy/gx)}+\pi$, with $gy$ and $gx$ being the individual gradient elements of their respective gradient matrix, and V being the magnitude of the two gradient elements.
+It is then mapped to HSV color space, where H is $\mathrm{atan2(gy/gx)}$, with $gy$ and $gx$ being the individual gradient elements of their respective gradient matrix, and V being the magnitude of the two gradient elements.
 
 #+BEGIN_EXPORT HTML
 <div class="multi-figure">
