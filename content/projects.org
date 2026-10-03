@@ -23,14 +23,21 @@ It is then mapped to HSV color space, where H is $\mathrm{atan2(gy/gx)}$, with $
 Certified AI ready.
 
 Will polish up source code for public viewing soon(tm)
-* TODO [#A] USB to JTAG/SPI/I2C/XYZ Adapter
-Custom PCB  for communicating with various protocols with USB. It's not as [[https://ftdichip.com/wp-content/uploads/2022/06/DS_FT2233HP.pdf][complicated as it sounds]]; just wanted to practice PCB design again on something that is really useful.
-* TODO [#B] Reverse Engineering TL-WA1801
-Small project to flash OpenWRT on a router not yet official supported by OpenWRT.
-- [[file:blogpostings/tl_wa1801_abuse.org][Project blog]]
-* TODO [#B] Jailcel
-Mini Linux container from scratch, with isolated networking capabilities. Lots of effort learning Linux namespaces only to have it converge to being a Bubblewrap clone... but at least you can host stuff without the consequences of getting hacked, without the luggage of re-installing 100 userspace tools and libraries per service
-- [[https://github.com/yanghuaxuan/jailcel][Repository]]
+
+* DONE SlugTPU
+A custom ASIC for accelerating INT8 dense neural network inference.
+https://github.com/SlugTPU/
+
+* Done
+
+# * TODO [#A] USB to JTAG/SPI/I2C/XYZ Adapter
+# Custom PCB  for communicating with various protocols with USB. It's not as [[https://ftdichip.com/wp-content/uploads/2022/06/DS_FT2233HP.pdf][complicated as it sounds]]; just wanted to practice PCB design again on something that is really useful.
+# * TODO [#B] Reverse Engineering TL-WA1801
+# Small project to flash OpenWRT on a router not yet official supported by OpenWRT.
+# - [[file:blogpostings/tl_wa1801_abuse.org][Project blog]]
+# * TODO [#B] Jailcel
+# Mini Linux container from scratch, with isolated networking capabilities. Lots of effort learning Linux namespaces only to have it converge to being a Bubblewrap clone... but at least you can host stuff without the consequences of getting hacked, without the luggage of re-installing 100 userspace tools and libraries per service
+# - [[https://github.com/yanghuaxuan/jailcel][Repository]]
 * hyang.xyz
 This site you're looking at. I'll also sic my homelab here because why not (and because I was planning to host some stuff using my homelab some time ago). I have suffered a somewhat catastrophic data loss due to minor mistake from this project, so I'm pretty experienced or at least actively taking pre-cautions to not have this happen again.
 - [[file:blogpostings/hello_again_2023.org][My Setup in 2023 (NO WAY REPRESENTS MY CURRENT SETUP!!)]]
