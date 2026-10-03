@@ -1,1 +1,1 @@
-yes I make my homepage in Emacs Lisp btw
+yes I made my homepage in Emacs Lisp btw
